@@ -1,0 +1,72 @@
+.toggle-btns {
+    padding: 10px;
+    
+}
+.toggle-btns button {
+    margin-right: 5px;
+    padding: 15px 35px;
+    border: 1px solid rgb(233, 233, 233);
+    cursor: pointer;
+    outline: none;
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.toggle-btns button:hover {
+    background: rgb(8, 169, 197);
+    color: white;
+}
+.work-experience-education {
+    border: 1px solid rgb(235, 235, 235);
+    width: 65%;
+    background: white;
+    height: auto;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    
+}
+.ed-title {
+    padding: 20px;
+}
+.ed-title h2 {
+    /* color: rgb(128, 128, 128); */
+    color: rgb(177, 177, 177);
+    cursor: pointer;
+    
+}
+.ed-title h2:hover {
+    /* color: rgb(128, 128, 128); */
+    color: rgb(145, 145, 145);
+ 
+    
+}
+.details {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.right {
+    flex: 1;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.right h3 {
+    font-size: 1.2rem;
+    
+}
+.right h6 {
+    font-size: 1rem;
+    color: rgb(177, 177, 177);
+    letter-spacing: 1px;
+    line-height: 1.6rem;
+}
+.left {
+    margin-left: 20px;
+    width: 60px;
+}
+.accenture-qa {
+    display: flex;
+    flex-direction: column;
+}
