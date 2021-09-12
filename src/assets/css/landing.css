@@ -138,33 +138,3 @@ body {
   color: white;
 }
 
-/* Socials */
-.socials {
-  margin-top: 40px;
-  border-bottom: 1px solid rgb(216, 216, 216);
-}
-.socials .fab {
-  margin: 10px;
-  font-size: 1.5rem;
-  cursor: pointer;
-  border: 1px solid rgb(226, 226, 226);
-  padding: 5px;
-  border-radius: 5px;
-  /* background: rgb(248, 248, 248); */
-}
-.fa-facebook-f {
-  color: rgb(9, 89, 209);
-}
-.fa-facebook-f:hover{
-    color: rgb(5, 69, 165);
-
-}
-.fa-youtube {
-  color: brown;
-}
-.fa-youtube:hover {
-  color: rgb(156, 19, 19);
-}
-.fa-linkedin-in {
-  color: #0073b1;
-}

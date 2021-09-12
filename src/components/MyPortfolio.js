@@ -7,13 +7,14 @@ import merns from "../projects/merns";
 import allProjects from "../projects/allProjects";
 // import blogs from "../Blogs/Blogs";
 
-import Footer from "./Footer";
+import Footer from "./Footer/index";
 import BlogsContainer from "./BlogsContainer";
 import Education from "./AboutMe/Education";
 import Experience from "./AboutMe/Experience";
 import Certs from "./AboutMe/Certs";
 import Skills from "./AboutMe/Skills";
 import Interest from "./AboutMe/Interest";
+// import Footer from "./Footer";
 
 function MyPortfolio() {
   const [contact, setContact] = useState(false);
@@ -69,50 +70,50 @@ function MyPortfolio() {
     {
       id: 1,
       title: "React native 1",
-      time: "12/1/2020"
+      time: "12/1/2020",
     },
     {
       id: 2,
       title: "REACT native 2",
-      time: "12/1/2020"
+      time: "12/1/2020",
     },
     {
       id: 3,
       title: "React native  APP 3",
-      time: "12/1/2020"
-    }
+      time: "12/1/2020",
+    },
   ];
   const projects = [
     {
       id: 1,
       title: "Project 1",
-      time: "12/1/2020"
+      time: "12/1/2020",
     },
     {
       id: 2,
       title: "Project 2",
-      time: "12/1/2020"
+      time: "12/1/2020",
     },
     {
       id: 3,
       title: "Project 3",
-      time: "12/1/2020"
+      time: "12/1/2020",
     },
     {
       id: 4,
       title: "Project 4",
-      time: "12/1/2020"
+      time: "12/1/2020",
     },
     {
       id: 5,
       title: "Project 5",
-      time: "12/1/2020"
+      time: "12/1/2020",
     },
     {
       id: 6,
       title: "Project 6",
-      time: "12/1/2020"
-    }
+      time: "12/1/2020",
+    },
   ];
 
   return (
@@ -149,8 +150,9 @@ function MyPortfolio() {
           My name is Chihabeddine Ahmed, I am a Front-End and Back-End developer{" "}
           <br />
           Mainly focused on JavaScript and its Frameworks. <br /> I am
-          interested in React.JS, Node.js and JavaScript related technoliges. <br/> I have serious passion for
-          web development and I like developing apps.
+          interested in React.JS, Node.js and JavaScript related technoliges.{" "}
+          <br /> I have serious passion for web development and I like
+          developing apps.
         </p>
         <div className="toggle-btns">
           <button onClick={toggle}> Education</button>
@@ -164,7 +166,7 @@ function MyPortfolio() {
         {contact ? <h1 onClick={hideContact}>Contact me </h1> : null}
         {work ? <Education hideWork={hideWork} /> : null}
         {ex ? <Experience hideEx={hideEx} /> : null}
-        
+
         {skills ? <Skills hideSkills={hideSkills} /> : null}
         {interests ? <Interest hideInterest={hideInterest} /> : null}
         {certs ? <Certs hideCerts={hideCerts} /> : null}
@@ -177,7 +179,7 @@ function MyPortfolio() {
           <div className="projects-nav">
             <Tabs
               activeTab={{
-                id: "tab1"
+                id: "tab1",
               }}
             >
               <Tabs.Tab id="tab1" title="All">
